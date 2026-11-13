@@ -1,0 +1,6 @@
+{
+  "name": "ThermoGrid Boiler Monitor",
+  "description": "Industrial smart boiler telemetry, steam pressure, water level, fuel consumption, and maintenance management console.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

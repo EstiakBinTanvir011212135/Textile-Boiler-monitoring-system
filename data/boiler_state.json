@@ -1,0 +1,1926 @@
+{
+  "boilers": [
+    {
+      "id": "BLR-01",
+      "name": "Main Steam Unit 01",
+      "location": "Utility Bay A · Ground Floor",
+      "model": "Cleaver-Brooks CBEX 6000",
+      "fuelType": "Natural Gas",
+      "ratedCapacityKgHr": 6000,
+      "status": "nominal",
+      "maintenanceStatus": "operational",
+      "isRunning": true,
+      "loadMode": "normal",
+      "targetPressureBar": 10.8,
+      "faultScenario": "none",
+      "temperatureC": 185.4,
+      "tempDeltaPerMin": 4,
+      "pressureBar": 10.88,
+      "waterLevelPct": 68.2,
+      "feedwaterPumpActive": false,
+      "burnerFiringPct": 68,
+      "fuelConsumptionLph": 142.3,
+      "dailyFuelTotalL": 1913.46,
+      "steamOutputKgHr": 3771,
+      "efficiencyPct": 89,
+      "operatingHoursTotal": 4218.5,
+      "hoursSinceLastService": 184.5,
+      "serviceIntervalHours": 500,
+      "currentRunHours": 18.7,
+      "lastInspectionDate": "2026-10-18",
+      "nextInspectionDate": "2026-12-02",
+      "sensors": [
+        {
+          "id": "SENS-01-T",
+          "name": "PT-100 Drum Thermocouple",
+          "protocol": "Modbus RTU · Ch1",
+          "value": 184.2,
+          "unit": "°C",
+          "signalQualityPct": 99.6,
+          "lastCalibrated": "2026-10-18",
+          "status": "online"
+        },
+        {
+          "id": "SENS-01-P",
+          "name": "Rosemount Header Transducer",
+          "protocol": "4-20mA Loop · Ch2",
+          "value": 10.81,
+          "unit": "bar",
+          "signalQualityPct": 99.8,
+          "lastCalibrated": "2026-10-18",
+          "status": "online"
+        },
+        {
+          "id": "SENS-01-W",
+          "name": "Guided-Wave Level Probe",
+          "protocol": "Modbus RTU · Ch3",
+          "value": 61.7,
+          "unit": "%",
+          "signalQualityPct": 98.9,
+          "lastCalibrated": "2026-10-18",
+          "status": "online"
+        },
+        {
+          "id": "SENS-01-F",
+          "name": "Coriolis Fuel Mass Meter",
+          "protocol": "Pulse / MQTT · Ch4",
+          "value": 134.7,
+          "unit": "L/hr",
+          "signalQualityPct": 99.4,
+          "lastCalibrated": "2026-10-05",
+          "status": "online"
+        }
+      ],
+      "history": [
+        {
+          "timestamp": "2026-11-13T16:10:46.836Z",
+          "temperatureC": 184,
+          "pressureBar": 10.85,
+          "waterLevelPct": 59.1,
+          "fuelConsumptionLph": 135.2,
+          "efficiencyPct": 88.9,
+          "steamOutputKgHr": 3583
+        },
+        {
+          "timestamp": "2026-11-13T16:10:48.337Z",
+          "temperatureC": 184,
+          "pressureBar": 10.84,
+          "waterLevelPct": 59.8,
+          "fuelConsumptionLph": 134.7,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3570
+        },
+        {
+          "timestamp": "2026-11-13T16:10:49.839Z",
+          "temperatureC": 184.1,
+          "pressureBar": 10.83,
+          "waterLevelPct": 60.5,
+          "fuelConsumptionLph": 135,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3578
+        },
+        {
+          "timestamp": "2026-11-13T16:10:51.339Z",
+          "temperatureC": 184,
+          "pressureBar": 10.82,
+          "waterLevelPct": 61.2,
+          "fuelConsumptionLph": 134.6,
+          "efficiencyPct": 88.9,
+          "steamOutputKgHr": 3567
+        },
+        {
+          "timestamp": "2026-11-13T16:10:52.840Z",
+          "temperatureC": 184,
+          "pressureBar": 10.82,
+          "waterLevelPct": 61.9,
+          "fuelConsumptionLph": 134.2,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3556
+        },
+        {
+          "timestamp": "2026-11-13T16:10:54.340Z",
+          "temperatureC": 184.2,
+          "pressureBar": 10.83,
+          "waterLevelPct": 62.5,
+          "fuelConsumptionLph": 135,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3578
+        },
+        {
+          "timestamp": "2026-11-13T16:10:55.841Z",
+          "temperatureC": 184.2,
+          "pressureBar": 10.8,
+          "waterLevelPct": 63.1,
+          "fuelConsumptionLph": 134.3,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3559
+        },
+        {
+          "timestamp": "2026-11-13T16:10:57.341Z",
+          "temperatureC": 184.3,
+          "pressureBar": 10.78,
+          "waterLevelPct": 63.8,
+          "fuelConsumptionLph": 135,
+          "efficiencyPct": 88.9,
+          "steamOutputKgHr": 3578
+        },
+        {
+          "timestamp": "2026-11-13T16:10:58.842Z",
+          "temperatureC": 184.3,
+          "pressureBar": 10.82,
+          "waterLevelPct": 64.4,
+          "fuelConsumptionLph": 134.3,
+          "efficiencyPct": 89.2,
+          "steamOutputKgHr": 3559
+        },
+        {
+          "timestamp": "2026-11-13T16:11:00.343Z",
+          "temperatureC": 184.4,
+          "pressureBar": 10.81,
+          "waterLevelPct": 65,
+          "fuelConsumptionLph": 135.5,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3591
+        },
+        {
+          "timestamp": "2026-11-13T16:11:01.844Z",
+          "temperatureC": 184.2,
+          "pressureBar": 10.78,
+          "waterLevelPct": 65.7,
+          "fuelConsumptionLph": 134.5,
+          "efficiencyPct": 88.9,
+          "steamOutputKgHr": 3564
+        },
+        {
+          "timestamp": "2026-11-13T16:11:03.346Z",
+          "temperatureC": 184.2,
+          "pressureBar": 10.8,
+          "waterLevelPct": 66.2,
+          "fuelConsumptionLph": 134.8,
+          "efficiencyPct": 89,
+          "steamOutputKgHr": 3572
+        },
+        {
+          "timestamp": "2026-11-13T16:11:04.846Z",
+          "temperatureC": 184.3,
+          "pressureBar": 10.8,
+          "waterLevelPct": 66.8,
+          "fuelConsumptionLph": 134.9,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3575
+        },
+        {
+          "timestamp": "2026-11-13T16:11:06.347Z",
+          "temperatureC": 184.2,
+          "pressureBar": 10.78,
+          "waterLevelPct": 67.5,
+          "fuelConsumptionLph": 134.6,
+          "efficiencyPct": 88.9,
+          "steamOutputKgHr": 3567
+        },
+        {
+          "timestamp": "2026-11-13T16:11:07.848Z",
+          "temperatureC": 184.1,
+          "pressureBar": 10.75,
+          "waterLevelPct": 68.3,
+          "fuelConsumptionLph": 134.6,
+          "efficiencyPct": 89.2,
+          "steamOutputKgHr": 3567
+        },
+        {
+          "timestamp": "2026-11-13T16:11:09.348Z",
+          "temperatureC": 184.1,
+          "pressureBar": 10.75,
+          "waterLevelPct": 69,
+          "fuelConsumptionLph": 134.6,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3567
+        },
+        {
+          "timestamp": "2026-11-13T16:11:10.848Z",
+          "temperatureC": 184.1,
+          "pressureBar": 10.76,
+          "waterLevelPct": 69.8,
+          "fuelConsumptionLph": 134.3,
+          "efficiencyPct": 89,
+          "steamOutputKgHr": 3559
+        },
+        {
+          "timestamp": "2026-11-13T16:11:12.349Z",
+          "temperatureC": 184,
+          "pressureBar": 10.81,
+          "waterLevelPct": 70.6,
+          "fuelConsumptionLph": 134.4,
+          "efficiencyPct": 89.2,
+          "steamOutputKgHr": 3562
+        },
+        {
+          "timestamp": "2026-11-13T16:11:13.850Z",
+          "temperatureC": 184,
+          "pressureBar": 10.8,
+          "waterLevelPct": 71.2,
+          "fuelConsumptionLph": 135.5,
+          "efficiencyPct": 89,
+          "steamOutputKgHr": 3591
+        },
+        {
+          "timestamp": "2026-11-13T16:11:15.351Z",
+          "temperatureC": 184,
+          "pressureBar": 10.77,
+          "waterLevelPct": 71.8,
+          "fuelConsumptionLph": 134.5,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3564
+        },
+        {
+          "timestamp": "2026-11-13T16:11:16.851Z",
+          "temperatureC": 184.1,
+          "pressureBar": 10.74,
+          "waterLevelPct": 72.5,
+          "fuelConsumptionLph": 135.3,
+          "efficiencyPct": 88.9,
+          "steamOutputKgHr": 3585
+        },
+        {
+          "timestamp": "2026-11-13T16:11:18.352Z",
+          "temperatureC": 183.9,
+          "pressureBar": 10.77,
+          "waterLevelPct": 73.3,
+          "fuelConsumptionLph": 135.2,
+          "efficiencyPct": 89,
+          "steamOutputKgHr": 3583
+        },
+        {
+          "timestamp": "2026-11-13T16:11:19.852Z",
+          "temperatureC": 183.9,
+          "pressureBar": 10.79,
+          "waterLevelPct": 74,
+          "fuelConsumptionLph": 135.4,
+          "efficiencyPct": 89.2,
+          "steamOutputKgHr": 3588
+        },
+        {
+          "timestamp": "2026-11-13T16:11:21.353Z",
+          "temperatureC": 183.7,
+          "pressureBar": 10.76,
+          "waterLevelPct": 74.6,
+          "fuelConsumptionLph": 134.6,
+          "efficiencyPct": 89,
+          "steamOutputKgHr": 3567
+        },
+        {
+          "timestamp": "2026-11-13T16:11:22.855Z",
+          "temperatureC": 183.9,
+          "pressureBar": 10.79,
+          "waterLevelPct": 74.2,
+          "fuelConsumptionLph": 134.7,
+          "efficiencyPct": 89,
+          "steamOutputKgHr": 3570
+        },
+        {
+          "timestamp": "2026-11-13T16:11:24.356Z",
+          "temperatureC": 184,
+          "pressureBar": 10.77,
+          "waterLevelPct": 73.7,
+          "fuelConsumptionLph": 135.4,
+          "efficiencyPct": 89,
+          "steamOutputKgHr": 3588
+        },
+        {
+          "timestamp": "2026-11-13T16:11:25.857Z",
+          "temperatureC": 184.1,
+          "pressureBar": 10.74,
+          "waterLevelPct": 73.2,
+          "fuelConsumptionLph": 134.9,
+          "efficiencyPct": 88.9,
+          "steamOutputKgHr": 3575
+        },
+        {
+          "timestamp": "2026-11-13T16:11:27.357Z",
+          "temperatureC": 184,
+          "pressureBar": 10.76,
+          "waterLevelPct": 72.9,
+          "fuelConsumptionLph": 135.6,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3593
+        },
+        {
+          "timestamp": "2026-11-13T16:11:28.859Z",
+          "temperatureC": 183.8,
+          "pressureBar": 10.76,
+          "waterLevelPct": 72.4,
+          "fuelConsumptionLph": 135.4,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3588
+        },
+        {
+          "timestamp": "2026-11-13T16:11:30.360Z",
+          "temperatureC": 183.9,
+          "pressureBar": 10.8,
+          "waterLevelPct": 72.1,
+          "fuelConsumptionLph": 134.5,
+          "efficiencyPct": 89,
+          "steamOutputKgHr": 3564
+        },
+        {
+          "timestamp": "2026-11-13T16:11:31.860Z",
+          "temperatureC": 183.8,
+          "pressureBar": 10.77,
+          "waterLevelPct": 71.7,
+          "fuelConsumptionLph": 135.1,
+          "efficiencyPct": 89.2,
+          "steamOutputKgHr": 3580
+        },
+        {
+          "timestamp": "2026-11-13T16:11:33.362Z",
+          "temperatureC": 183.7,
+          "pressureBar": 10.76,
+          "waterLevelPct": 71.3,
+          "fuelConsumptionLph": 135.5,
+          "efficiencyPct": 89,
+          "steamOutputKgHr": 3591
+        },
+        {
+          "timestamp": "2026-11-13T16:11:34.861Z",
+          "temperatureC": 183.9,
+          "pressureBar": 10.78,
+          "waterLevelPct": 71,
+          "fuelConsumptionLph": 135,
+          "efficiencyPct": 89.2,
+          "steamOutputKgHr": 3578
+        },
+        {
+          "timestamp": "2026-11-13T16:11:36.362Z",
+          "temperatureC": 184,
+          "pressureBar": 10.82,
+          "waterLevelPct": 70.6,
+          "fuelConsumptionLph": 135.5,
+          "efficiencyPct": 89,
+          "steamOutputKgHr": 3591
+        },
+        {
+          "timestamp": "2026-11-13T16:11:37.863Z",
+          "temperatureC": 184.1,
+          "pressureBar": 10.85,
+          "waterLevelPct": 70.2,
+          "fuelConsumptionLph": 135.4,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3588
+        },
+        {
+          "timestamp": "2026-11-13T16:11:39.364Z",
+          "temperatureC": 184.3,
+          "pressureBar": 10.88,
+          "waterLevelPct": 69.8,
+          "fuelConsumptionLph": 135.5,
+          "efficiencyPct": 88.9,
+          "steamOutputKgHr": 3591
+        },
+        {
+          "timestamp": "2026-11-13T16:11:40.867Z",
+          "temperatureC": 184.4,
+          "pressureBar": 10.9,
+          "waterLevelPct": 69.5,
+          "fuelConsumptionLph": 135,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3578
+        },
+        {
+          "timestamp": "2026-11-13T16:11:42.368Z",
+          "temperatureC": 184.3,
+          "pressureBar": 10.89,
+          "waterLevelPct": 69.2,
+          "fuelConsumptionLph": 134.6,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3567
+        },
+        {
+          "timestamp": "2026-11-13T16:11:43.869Z",
+          "temperatureC": 184.4,
+          "pressureBar": 10.86,
+          "waterLevelPct": 68.7,
+          "fuelConsumptionLph": 135.4,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3588
+        },
+        {
+          "timestamp": "2026-11-13T16:11:45.369Z",
+          "temperatureC": 184.2,
+          "pressureBar": 10.81,
+          "waterLevelPct": 68.3,
+          "fuelConsumptionLph": 135.5,
+          "efficiencyPct": 89,
+          "steamOutputKgHr": 3591
+        },
+        {
+          "timestamp": "2026-11-13T16:11:46.871Z",
+          "temperatureC": 184.1,
+          "pressureBar": 10.82,
+          "waterLevelPct": 68,
+          "fuelConsumptionLph": 134.2,
+          "efficiencyPct": 88.9,
+          "steamOutputKgHr": 3556
+        },
+        {
+          "timestamp": "2026-11-13T16:11:48.372Z",
+          "temperatureC": 184.1,
+          "pressureBar": 10.79,
+          "waterLevelPct": 67.6,
+          "fuelConsumptionLph": 134.3,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3559
+        },
+        {
+          "timestamp": "2026-11-13T16:11:49.873Z",
+          "temperatureC": 184.2,
+          "pressureBar": 10.76,
+          "waterLevelPct": 67.3,
+          "fuelConsumptionLph": 134.9,
+          "efficiencyPct": 88.9,
+          "steamOutputKgHr": 3575
+        },
+        {
+          "timestamp": "2026-11-13T16:11:51.373Z",
+          "temperatureC": 184,
+          "pressureBar": 10.77,
+          "waterLevelPct": 66.8,
+          "fuelConsumptionLph": 134.4,
+          "efficiencyPct": 88.9,
+          "steamOutputKgHr": 3562
+        },
+        {
+          "timestamp": "2026-11-13T16:11:52.873Z",
+          "temperatureC": 184,
+          "pressureBar": 10.74,
+          "waterLevelPct": 66.4,
+          "fuelConsumptionLph": 135.1,
+          "efficiencyPct": 88.9,
+          "steamOutputKgHr": 3580
+        },
+        {
+          "timestamp": "2026-11-13T16:11:54.374Z",
+          "temperatureC": 183.8,
+          "pressureBar": 10.75,
+          "waterLevelPct": 66.1,
+          "fuelConsumptionLph": 134.7,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3570
+        },
+        {
+          "timestamp": "2026-11-13T16:11:55.875Z",
+          "temperatureC": 183.8,
+          "pressureBar": 10.79,
+          "waterLevelPct": 65.8,
+          "fuelConsumptionLph": 135.3,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3585
+        },
+        {
+          "timestamp": "2026-11-13T16:11:57.376Z",
+          "temperatureC": 183.9,
+          "pressureBar": 10.81,
+          "waterLevelPct": 65.5,
+          "fuelConsumptionLph": 134.8,
+          "efficiencyPct": 89,
+          "steamOutputKgHr": 3572
+        },
+        {
+          "timestamp": "2026-11-13T16:11:58.877Z",
+          "temperatureC": 183.9,
+          "pressureBar": 10.83,
+          "waterLevelPct": 65.2,
+          "fuelConsumptionLph": 134.9,
+          "efficiencyPct": 88.9,
+          "steamOutputKgHr": 3575
+        },
+        {
+          "timestamp": "2026-11-13T16:12:00.379Z",
+          "temperatureC": 184.1,
+          "pressureBar": 10.84,
+          "waterLevelPct": 64.8,
+          "fuelConsumptionLph": 134.8,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3572
+        },
+        {
+          "timestamp": "2026-11-13T16:12:01.879Z",
+          "temperatureC": 184.2,
+          "pressureBar": 10.81,
+          "waterLevelPct": 64.4,
+          "fuelConsumptionLph": 134.4,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3562
+        },
+        {
+          "timestamp": "2026-11-13T16:12:03.380Z",
+          "temperatureC": 184.3,
+          "pressureBar": 10.83,
+          "waterLevelPct": 64,
+          "fuelConsumptionLph": 135,
+          "efficiencyPct": 88.8,
+          "steamOutputKgHr": 3578
+        },
+        {
+          "timestamp": "2026-11-13T16:12:04.880Z",
+          "temperatureC": 184.2,
+          "pressureBar": 10.83,
+          "waterLevelPct": 63.7,
+          "fuelConsumptionLph": 134.6,
+          "efficiencyPct": 88.9,
+          "steamOutputKgHr": 3567
+        },
+        {
+          "timestamp": "2026-11-13T16:12:06.381Z",
+          "temperatureC": 184.3,
+          "pressureBar": 10.84,
+          "waterLevelPct": 63.4,
+          "fuelConsumptionLph": 134.8,
+          "efficiencyPct": 89,
+          "steamOutputKgHr": 3572
+        },
+        {
+          "timestamp": "2026-11-13T16:12:07.882Z",
+          "temperatureC": 184.4,
+          "pressureBar": 10.86,
+          "waterLevelPct": 63.1,
+          "fuelConsumptionLph": 134.5,
+          "efficiencyPct": 89.1,
+          "steamOutputKgHr": 3564
+        },
+        {
+          "timestamp": "2026-11-13T16:12:09.383Z",
+          "temperatureC": 184.5,
+          "pressureBar": 10.84,
+          "waterLevelPct": 62.8,
+          "fuelConsumptionLph": 134.4,
+          "efficiencyPct": 88.9,
+          "steamOutputKgHr": 3562
+        },
+        {
+          "timestamp": "2026-11-13T16:12:10.885Z",
+          "temperatureC": 184.3,
+          "pressureBar": 10.79,
+          "waterLevelPct": 62.5,
+          "fuelConsumptionLph": 135.2,
+          "efficiencyPct": 89,
+          "steamOutputKgHr": 3583
+        },
+        {
+          "timestamp": "2026-11-13T16:12:12.387Z",
+          "temperatureC": 184.1,
+          "pressureBar": 10.8,
+          "waterLevelPct": 62.1,
+          "fuelConsumptionLph": 134.9,
+          "efficiencyPct": 89,
+          "steamOutputKgHr": 3575
+        },
+        {
+          "timestamp": "2026-11-13T16:12:29.981Z",
+          "temperatureC": 184.2,
+          "pressureBar": 10.81,
+          "waterLevelPct": 61.7,
+          "fuelConsumptionLph": 134.7,
+          "efficiencyPct": 89,
+          "steamOutputKgHr": 3570
+        },
+        {
+          "timestamp": "2026-11-13T16:12:30.609Z",
+          "temperatureC": 185.4,
+          "pressureBar": 10.88,
+          "waterLevelPct": 68.2,
+          "fuelConsumptionLph": 142.3,
+          "efficiencyPct": 89,
+          "steamOutputKgHr": 3771
+        }
+      ]
+    },
+    {
+      "id": "BLR-02",
+      "name": "Process Heat Unit 02",
+      "location": "Dyeing & Finishing Wing · Bay B",
+      "model": "Bosch Universal UL-S 4500",
+      "fuelType": "Diesel",
+      "ratedCapacityKgHr": 4500,
+      "status": "warning",
+      "maintenanceStatus": "inspection_due",
+      "isRunning": true,
+      "loadMode": "eco",
+      "targetPressureBar": 9.5,
+      "faultScenario": "none",
+      "temperatureC": 181.8,
+      "tempDeltaPerMin": 4,
+      "pressureBar": 9.51,
+      "waterLevelPct": 64.2,
+      "feedwaterPumpActive": true,
+      "burnerFiringPct": 57,
+      "fuelConsumptionLph": 84.3,
+      "dailyFuelTotalL": 1437.44,
+      "steamOutputKgHr": 2234,
+      "efficiencyPct": 88,
+      "operatingHoursTotal": 6472,
+      "hoursSinceLastService": 472,
+      "serviceIntervalHours": 500,
+      "currentRunHours": 14.2,
+      "lastInspectionDate": "2026-08-29",
+      "nextInspectionDate": "2026-11-16",
+      "sensors": [
+        {
+          "id": "SENS-02-T",
+          "name": "PT-100 Flue & Drum Sensor",
+          "protocol": "Modbus RTU · Ch1",
+          "value": 181.8,
+          "unit": "°C",
+          "signalQualityPct": 97.4,
+          "lastCalibrated": "2026-08-29",
+          "status": "online"
+        },
+        {
+          "id": "SENS-02-P",
+          "name": "Siemens Steam Pressure Gauge",
+          "protocol": "4-20mA Loop · Ch2",
+          "value": 9.51,
+          "unit": "bar",
+          "signalQualityPct": 98.1,
+          "lastCalibrated": "2026-08-29",
+          "status": "online"
+        },
+        {
+          "id": "SENS-02-W",
+          "name": "Differential Water Column",
+          "protocol": "Modbus RTU · Ch3",
+          "value": 64.2,
+          "unit": "%",
+          "signalQualityPct": 96.5,
+          "lastCalibrated": "2026-08-29",
+          "status": "online"
+        },
+        {
+          "id": "SENS-02-F",
+          "name": "Positive Displacement Flow",
+          "protocol": "Pulse / MQTT · Ch4",
+          "value": 84.3,
+          "unit": "L/hr",
+          "signalQualityPct": 97.9,
+          "lastCalibrated": "2026-08-29",
+          "status": "online"
+        }
+      ],
+      "history": [
+        {
+          "timestamp": "2026-11-13T16:10:45.336Z",
+          "temperatureC": 181.6,
+          "pressureBar": 9.49,
+          "waterLevelPct": 73.4,
+          "fuelConsumptionLph": 84.3,
+          "efficiencyPct": 88.2,
+          "steamOutputKgHr": 2234
+        },
+        {
+          "timestamp": "2026-11-13T16:10:46.836Z",
+          "temperatureC": 181.7,
+          "pressureBar": 9.48,
+          "waterLevelPct": 73.1,
+          "fuelConsumptionLph": 84.8,
+          "efficiencyPct": 88.2,
+          "steamOutputKgHr": 2247
+        },
+        {
+          "timestamp": "2026-11-13T16:10:48.337Z",
+          "temperatureC": 181.8,
+          "pressureBar": 9.46,
+          "waterLevelPct": 72.7,
+          "fuelConsumptionLph": 84.9,
+          "efficiencyPct": 88.3,
+          "steamOutputKgHr": 2250
+        },
+        {
+          "timestamp": "2026-11-13T16:10:49.839Z",
+          "temperatureC": 181.8,
+          "pressureBar": 9.48,
+          "waterLevelPct": 72.3,
+          "fuelConsumptionLph": 84.9,
+          "efficiencyPct": 88,
+          "steamOutputKgHr": 2250
+        },
+        {
+          "timestamp": "2026-11-13T16:10:51.339Z",
+          "temperatureC": 181.7,
+          "pressureBar": 9.51,
+          "waterLevelPct": 72,
+          "fuelConsumptionLph": 84.8,
+          "efficiencyPct": 88,
+          "steamOutputKgHr": 2247
+        },
+        {
+          "timestamp": "2026-11-13T16:10:52.840Z",
+          "temperatureC": 181.7,
+          "pressureBar": 9.51,
+          "waterLevelPct": 71.8,
+          "fuelConsumptionLph": 85.3,
+          "efficiencyPct": 88,
+          "steamOutputKgHr": 2260
+        },
+        {
+          "timestamp": "2026-11-13T16:10:54.340Z",
+          "temperatureC": 181.6,
+          "pressureBar": 9.55,
+          "waterLevelPct": 71.5,
+          "fuelConsumptionLph": 84.9,
+          "efficiencyPct": 88.2,
+          "steamOutputKgHr": 2250
+        },
+        {
+          "timestamp": "2026-11-13T16:10:55.841Z",
+          "temperatureC": 181.6,
+          "pressureBar": 9.5,
+          "waterLevelPct": 71.2,
+          "fuelConsumptionLph": 84.5,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2239
+        },
+        {
+          "timestamp": "2026-11-13T16:10:57.341Z",
+          "temperatureC": 181.6,
+          "pressureBar": 9.46,
+          "waterLevelPct": 70.8,
+          "fuelConsumptionLph": 84.3,
+          "efficiencyPct": 88.2,
+          "steamOutputKgHr": 2234
+        },
+        {
+          "timestamp": "2026-11-13T16:10:58.842Z",
+          "temperatureC": 181.7,
+          "pressureBar": 9.46,
+          "waterLevelPct": 70.5,
+          "fuelConsumptionLph": 85.3,
+          "efficiencyPct": 88.2,
+          "steamOutputKgHr": 2260
+        },
+        {
+          "timestamp": "2026-11-13T16:11:00.343Z",
+          "temperatureC": 181.6,
+          "pressureBar": 9.45,
+          "waterLevelPct": 70.1,
+          "fuelConsumptionLph": 84.8,
+          "efficiencyPct": 88.3,
+          "steamOutputKgHr": 2247
+        },
+        {
+          "timestamp": "2026-11-13T16:11:01.844Z",
+          "temperatureC": 181.6,
+          "pressureBar": 9.46,
+          "waterLevelPct": 69.7,
+          "fuelConsumptionLph": 85.1,
+          "efficiencyPct": 88.2,
+          "steamOutputKgHr": 2255
+        },
+        {
+          "timestamp": "2026-11-13T16:11:03.346Z",
+          "temperatureC": 181.7,
+          "pressureBar": 9.43,
+          "waterLevelPct": 69.4,
+          "fuelConsumptionLph": 84.3,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2234
+        },
+        {
+          "timestamp": "2026-11-13T16:11:04.846Z",
+          "temperatureC": 181.8,
+          "pressureBar": 9.47,
+          "waterLevelPct": 69,
+          "fuelConsumptionLph": 85.1,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2255
+        },
+        {
+          "timestamp": "2026-11-13T16:11:06.347Z",
+          "temperatureC": 181.7,
+          "pressureBar": 9.52,
+          "waterLevelPct": 68.7,
+          "fuelConsumptionLph": 84.6,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2242
+        },
+        {
+          "timestamp": "2026-11-13T16:11:07.848Z",
+          "temperatureC": 181.7,
+          "pressureBar": 9.49,
+          "waterLevelPct": 68.5,
+          "fuelConsumptionLph": 84.2,
+          "efficiencyPct": 87.9,
+          "steamOutputKgHr": 2231
+        },
+        {
+          "timestamp": "2026-11-13T16:11:09.348Z",
+          "temperatureC": 181.8,
+          "pressureBar": 9.47,
+          "waterLevelPct": 68.3,
+          "fuelConsumptionLph": 84.6,
+          "efficiencyPct": 88.3,
+          "steamOutputKgHr": 2242
+        },
+        {
+          "timestamp": "2026-11-13T16:11:10.848Z",
+          "temperatureC": 181.8,
+          "pressureBar": 9.48,
+          "waterLevelPct": 68,
+          "fuelConsumptionLph": 84.9,
+          "efficiencyPct": 88.3,
+          "steamOutputKgHr": 2250
+        },
+        {
+          "timestamp": "2026-11-13T16:11:12.349Z",
+          "temperatureC": 181.9,
+          "pressureBar": 9.51,
+          "waterLevelPct": 67.7,
+          "fuelConsumptionLph": 85.2,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2258
+        },
+        {
+          "timestamp": "2026-11-13T16:11:13.850Z",
+          "temperatureC": 182,
+          "pressureBar": 9.52,
+          "waterLevelPct": 67.4,
+          "fuelConsumptionLph": 84.6,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2242
+        },
+        {
+          "timestamp": "2026-11-13T16:11:15.351Z",
+          "temperatureC": 181.9,
+          "pressureBar": 9.5,
+          "waterLevelPct": 67.1,
+          "fuelConsumptionLph": 84.4,
+          "efficiencyPct": 88.3,
+          "steamOutputKgHr": 2237
+        },
+        {
+          "timestamp": "2026-11-13T16:11:16.851Z",
+          "temperatureC": 181.9,
+          "pressureBar": 9.53,
+          "waterLevelPct": 66.8,
+          "fuelConsumptionLph": 84.7,
+          "efficiencyPct": 88.2,
+          "steamOutputKgHr": 2245
+        },
+        {
+          "timestamp": "2026-11-13T16:11:18.352Z",
+          "temperatureC": 181.9,
+          "pressureBar": 9.51,
+          "waterLevelPct": 66.5,
+          "fuelConsumptionLph": 85.1,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2255
+        },
+        {
+          "timestamp": "2026-11-13T16:11:19.852Z",
+          "temperatureC": 182,
+          "pressureBar": 9.51,
+          "waterLevelPct": 66.3,
+          "fuelConsumptionLph": 84.6,
+          "efficiencyPct": 88.2,
+          "steamOutputKgHr": 2242
+        },
+        {
+          "timestamp": "2026-11-13T16:11:21.353Z",
+          "temperatureC": 182.1,
+          "pressureBar": 9.51,
+          "waterLevelPct": 66,
+          "fuelConsumptionLph": 84.1,
+          "efficiencyPct": 88.3,
+          "steamOutputKgHr": 2229
+        },
+        {
+          "timestamp": "2026-11-13T16:11:22.855Z",
+          "temperatureC": 182.1,
+          "pressureBar": 9.48,
+          "waterLevelPct": 65.6,
+          "fuelConsumptionLph": 85,
+          "efficiencyPct": 88,
+          "steamOutputKgHr": 2253
+        },
+        {
+          "timestamp": "2026-11-13T16:11:24.356Z",
+          "temperatureC": 181.9,
+          "pressureBar": 9.45,
+          "waterLevelPct": 65.3,
+          "fuelConsumptionLph": 84.5,
+          "efficiencyPct": 88.3,
+          "steamOutputKgHr": 2239
+        },
+        {
+          "timestamp": "2026-11-13T16:11:25.857Z",
+          "temperatureC": 181.8,
+          "pressureBar": 9.48,
+          "waterLevelPct": 64.9,
+          "fuelConsumptionLph": 85.1,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2255
+        },
+        {
+          "timestamp": "2026-11-13T16:11:27.357Z",
+          "temperatureC": 181.8,
+          "pressureBar": 9.51,
+          "waterLevelPct": 64.5,
+          "fuelConsumptionLph": 85,
+          "efficiencyPct": 88,
+          "steamOutputKgHr": 2253
+        },
+        {
+          "timestamp": "2026-11-13T16:11:28.859Z",
+          "temperatureC": 181.9,
+          "pressureBar": 9.5,
+          "waterLevelPct": 64.1,
+          "fuelConsumptionLph": 85.5,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2266
+        },
+        {
+          "timestamp": "2026-11-13T16:11:30.360Z",
+          "temperatureC": 181.9,
+          "pressureBar": 9.52,
+          "waterLevelPct": 63.8,
+          "fuelConsumptionLph": 85,
+          "efficiencyPct": 88,
+          "steamOutputKgHr": 2253
+        },
+        {
+          "timestamp": "2026-11-13T16:11:31.860Z",
+          "temperatureC": 182,
+          "pressureBar": 9.51,
+          "waterLevelPct": 63.5,
+          "fuelConsumptionLph": 84.7,
+          "efficiencyPct": 88.3,
+          "steamOutputKgHr": 2245
+        },
+        {
+          "timestamp": "2026-11-13T16:11:33.362Z",
+          "temperatureC": 181.9,
+          "pressureBar": 9.53,
+          "waterLevelPct": 63.3,
+          "fuelConsumptionLph": 84.9,
+          "efficiencyPct": 88.3,
+          "steamOutputKgHr": 2250
+        },
+        {
+          "timestamp": "2026-11-13T16:11:34.861Z",
+          "temperatureC": 182,
+          "pressureBar": 9.53,
+          "waterLevelPct": 62.9,
+          "fuelConsumptionLph": 85.4,
+          "efficiencyPct": 88.3,
+          "steamOutputKgHr": 2263
+        },
+        {
+          "timestamp": "2026-11-13T16:11:36.362Z",
+          "temperatureC": 182,
+          "pressureBar": 9.56,
+          "waterLevelPct": 62.7,
+          "fuelConsumptionLph": 84.4,
+          "efficiencyPct": 88.2,
+          "steamOutputKgHr": 2237
+        },
+        {
+          "timestamp": "2026-11-13T16:11:37.863Z",
+          "temperatureC": 182.1,
+          "pressureBar": 9.53,
+          "waterLevelPct": 62.4,
+          "fuelConsumptionLph": 85.1,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2255
+        },
+        {
+          "timestamp": "2026-11-13T16:11:39.364Z",
+          "temperatureC": 181.9,
+          "pressureBar": 9.49,
+          "waterLevelPct": 62.2,
+          "fuelConsumptionLph": 84.6,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2242
+        },
+        {
+          "timestamp": "2026-11-13T16:11:40.867Z",
+          "temperatureC": 181.9,
+          "pressureBar": 9.52,
+          "waterLevelPct": 61.8,
+          "fuelConsumptionLph": 84.6,
+          "efficiencyPct": 88.3,
+          "steamOutputKgHr": 2242
+        },
+        {
+          "timestamp": "2026-11-13T16:11:42.368Z",
+          "temperatureC": 181.9,
+          "pressureBar": 9.53,
+          "waterLevelPct": 61.6,
+          "fuelConsumptionLph": 85.1,
+          "efficiencyPct": 88,
+          "steamOutputKgHr": 2255
+        },
+        {
+          "timestamp": "2026-11-13T16:11:43.869Z",
+          "temperatureC": 181.7,
+          "pressureBar": 9.55,
+          "waterLevelPct": 61.2,
+          "fuelConsumptionLph": 85.3,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2260
+        },
+        {
+          "timestamp": "2026-11-13T16:11:45.369Z",
+          "temperatureC": 181.6,
+          "pressureBar": 9.56,
+          "waterLevelPct": 60.9,
+          "fuelConsumptionLph": 85.3,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2260
+        },
+        {
+          "timestamp": "2026-11-13T16:11:46.871Z",
+          "temperatureC": 181.4,
+          "pressureBar": 9.52,
+          "waterLevelPct": 60.7,
+          "fuelConsumptionLph": 84.2,
+          "efficiencyPct": 88.2,
+          "steamOutputKgHr": 2231
+        },
+        {
+          "timestamp": "2026-11-13T16:11:48.372Z",
+          "temperatureC": 181.3,
+          "pressureBar": 9.54,
+          "waterLevelPct": 60.4,
+          "fuelConsumptionLph": 85.4,
+          "efficiencyPct": 88.3,
+          "steamOutputKgHr": 2263
+        },
+        {
+          "timestamp": "2026-11-13T16:11:49.873Z",
+          "temperatureC": 181.5,
+          "pressureBar": 9.56,
+          "waterLevelPct": 60,
+          "fuelConsumptionLph": 84.5,
+          "efficiencyPct": 88,
+          "steamOutputKgHr": 2239
+        },
+        {
+          "timestamp": "2026-11-13T16:11:51.373Z",
+          "temperatureC": 181.5,
+          "pressureBar": 9.54,
+          "waterLevelPct": 59.7,
+          "fuelConsumptionLph": 85.5,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2266
+        },
+        {
+          "timestamp": "2026-11-13T16:11:52.873Z",
+          "temperatureC": 181.6,
+          "pressureBar": 9.54,
+          "waterLevelPct": 59.3,
+          "fuelConsumptionLph": 84.4,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2237
+        },
+        {
+          "timestamp": "2026-11-13T16:11:54.374Z",
+          "temperatureC": 181.5,
+          "pressureBar": 9.5,
+          "waterLevelPct": 58.9,
+          "fuelConsumptionLph": 84.6,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2242
+        },
+        {
+          "timestamp": "2026-11-13T16:11:55.875Z",
+          "temperatureC": 181.5,
+          "pressureBar": 9.48,
+          "waterLevelPct": 58.6,
+          "fuelConsumptionLph": 85.3,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2260
+        },
+        {
+          "timestamp": "2026-11-13T16:11:57.376Z",
+          "temperatureC": 181.7,
+          "pressureBar": 9.45,
+          "waterLevelPct": 58.2,
+          "fuelConsumptionLph": 85.2,
+          "efficiencyPct": 88.3,
+          "steamOutputKgHr": 2258
+        },
+        {
+          "timestamp": "2026-11-13T16:11:58.877Z",
+          "temperatureC": 181.6,
+          "pressureBar": 9.44,
+          "waterLevelPct": 57.8,
+          "fuelConsumptionLph": 85,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2253
+        },
+        {
+          "timestamp": "2026-11-13T16:12:00.379Z",
+          "temperatureC": 181.7,
+          "pressureBar": 9.45,
+          "waterLevelPct": 58.5,
+          "fuelConsumptionLph": 85.3,
+          "efficiencyPct": 88.2,
+          "steamOutputKgHr": 2260
+        },
+        {
+          "timestamp": "2026-11-13T16:12:01.879Z",
+          "temperatureC": 181.6,
+          "pressureBar": 9.47,
+          "waterLevelPct": 59.2,
+          "fuelConsumptionLph": 85,
+          "efficiencyPct": 88.1,
+          "steamOutputKgHr": 2253
+        },
+        {
+          "timestamp": "2026-11-13T16:12:03.380Z",
+          "temperatureC": 181.7,
+          "pressureBar": 9.45,
+          "waterLevelPct": 59.8,
+          "fuelConsumptionLph": 84.9,
+          "efficiencyPct": 88.2,
+          "steamOutputKgHr": 2250
+        },
+        {
+          "timestamp": "2026-11-13T16:12:04.880Z",
+          "temperatureC": 181.8,
+          "pressureBar": 9.47,
+          "waterLevelPct": 60.4,
+          "fuelConsumptionLph": 85,
+          "efficiencyPct": 88,
+          "steamOutputKgHr": 2253
+        },
+        {
+          "timestamp": "2026-11-13T16:12:06.381Z",
+          "temperatureC": 181.9,
+          "pressureBar": 9.45,
+          "waterLevelPct": 61.1,
+          "fuelConsumptionLph": 84.9,
+          "efficiencyPct": 88.2,
+          "steamOutputKgHr": 2250
+        },
+        {
+          "timestamp": "2026-11-13T16:12:07.882Z",
+          "temperatureC": 181.9,
+          "pressureBar": 9.48,
+          "waterLevelPct": 61.7,
+          "fuelConsumptionLph": 84.6,
+          "efficiencyPct": 88,
+          "steamOutputKgHr": 2242
+        },
+        {
+          "timestamp": "2026-11-13T16:12:09.383Z",
+          "temperatureC": 181.8,
+          "pressureBar": 9.48,
+          "waterLevelPct": 62.3,
+          "fuelConsumptionLph": 85.2,
+          "efficiencyPct": 88,
+          "steamOutputKgHr": 2258
+        },
+        {
+          "timestamp": "2026-11-13T16:12:10.885Z",
+          "temperatureC": 181.8,
+          "pressureBar": 9.44,
+          "waterLevelPct": 62.9,
+          "fuelConsumptionLph": 84.7,
+          "efficiencyPct": 88.2,
+          "steamOutputKgHr": 2245
+        },
+        {
+          "timestamp": "2026-11-13T16:12:12.387Z",
+          "temperatureC": 181.7,
+          "pressureBar": 9.49,
+          "waterLevelPct": 63.6,
+          "fuelConsumptionLph": 85.3,
+          "efficiencyPct": 88,
+          "steamOutputKgHr": 2260
+        },
+        {
+          "timestamp": "2026-11-13T16:12:29.981Z",
+          "temperatureC": 181.8,
+          "pressureBar": 9.51,
+          "waterLevelPct": 64.2,
+          "fuelConsumptionLph": 84.3,
+          "efficiencyPct": 88,
+          "steamOutputKgHr": 2234
+        }
+      ]
+    },
+    {
+      "id": "BLR-03",
+      "name": "Auxiliary Standby Unit 03",
+      "location": "Utility Bay A · East Reserve",
+      "model": "Thermax Revomax 3000",
+      "fuelType": "Natural Gas",
+      "ratedCapacityKgHr": 3000,
+      "status": "standby",
+      "maintenanceStatus": "operational",
+      "isRunning": false,
+      "loadMode": "eco",
+      "targetPressureBar": 8.5,
+      "faultScenario": "none",
+      "temperatureC": 57.9,
+      "tempDeltaPerMin": 0,
+      "pressureBar": 1.15,
+      "waterLevelPct": 74.5,
+      "feedwaterPumpActive": false,
+      "burnerFiringPct": 0,
+      "fuelConsumptionLph": 0,
+      "dailyFuelTotalL": 214,
+      "steamOutputKgHr": 0,
+      "efficiencyPct": 0,
+      "operatingHoursTotal": 1940.2,
+      "hoursSinceLastService": 92,
+      "serviceIntervalHours": 500,
+      "currentRunHours": 0,
+      "lastInspectionDate": "2026-10-30",
+      "nextInspectionDate": "2027-01-12",
+      "sensors": [
+        {
+          "id": "SENS-03-T",
+          "name": "PT-100 Drum Thermocouple",
+          "protocol": "Modbus RTU · Ch1",
+          "value": 57.9,
+          "unit": "°C",
+          "signalQualityPct": 99.9,
+          "lastCalibrated": "2026-10-30",
+          "status": "online"
+        },
+        {
+          "id": "SENS-03-P",
+          "name": "Header Pressure Transmitter",
+          "protocol": "4-20mA Loop · Ch2",
+          "value": 1.15,
+          "unit": "bar",
+          "signalQualityPct": 99.5,
+          "lastCalibrated": "2026-10-30",
+          "status": "online"
+        },
+        {
+          "id": "SENS-03-W",
+          "name": "Capacitive Level Probe",
+          "protocol": "Modbus RTU · Ch3",
+          "value": 74.5,
+          "unit": "%",
+          "signalQualityPct": 99.2,
+          "lastCalibrated": "2026-10-30",
+          "status": "online"
+        },
+        {
+          "id": "SENS-03-F",
+          "name": "Gas Mass Flow Sensor",
+          "protocol": "Pulse / MQTT · Ch4",
+          "value": 0,
+          "unit": "L/hr",
+          "signalQualityPct": 99.7,
+          "lastCalibrated": "2026-10-30",
+          "status": "online"
+        }
+      ],
+      "history": [
+        {
+          "timestamp": "2026-11-13T16:10:45.336Z",
+          "temperatureC": 58.2,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:10:46.836Z",
+          "temperatureC": 58.2,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:10:48.337Z",
+          "temperatureC": 58.1,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:10:49.839Z",
+          "temperatureC": 58.1,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:10:51.339Z",
+          "temperatureC": 58.1,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:10:52.840Z",
+          "temperatureC": 58.1,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:10:54.340Z",
+          "temperatureC": 58.1,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:10:55.841Z",
+          "temperatureC": 58.1,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:10:57.341Z",
+          "temperatureC": 58.1,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:10:58.842Z",
+          "temperatureC": 58.2,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:00.343Z",
+          "temperatureC": 58.2,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:01.844Z",
+          "temperatureC": 58.2,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:03.346Z",
+          "temperatureC": 58.2,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:04.846Z",
+          "temperatureC": 58.2,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:06.347Z",
+          "temperatureC": 58.2,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:07.848Z",
+          "temperatureC": 58.2,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:09.348Z",
+          "temperatureC": 58.2,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:10.848Z",
+          "temperatureC": 58.1,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:12.349Z",
+          "temperatureC": 58.1,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:13.850Z",
+          "temperatureC": 58.1,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:15.351Z",
+          "temperatureC": 58.1,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:16.851Z",
+          "temperatureC": 58.1,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:18.352Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:19.852Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:21.353Z",
+          "temperatureC": 58.1,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:22.855Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:24.356Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:25.857Z",
+          "temperatureC": 57.9,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:27.357Z",
+          "temperatureC": 57.9,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:28.859Z",
+          "temperatureC": 57.9,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:30.360Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:31.860Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:33.362Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:34.861Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:36.362Z",
+          "temperatureC": 57.9,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:37.863Z",
+          "temperatureC": 57.9,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:39.364Z",
+          "temperatureC": 57.9,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:40.867Z",
+          "temperatureC": 57.9,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:42.368Z",
+          "temperatureC": 57.9,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:43.869Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:45.369Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:46.871Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:48.372Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:49.873Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:51.373Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:52.873Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:54.374Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:55.875Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:57.376Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:11:58.877Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:12:00.379Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:12:01.879Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:12:03.380Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:12:04.880Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:12:06.381Z",
+          "temperatureC": 58,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:12:07.882Z",
+          "temperatureC": 57.9,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:12:09.383Z",
+          "temperatureC": 57.8,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:12:10.885Z",
+          "temperatureC": 57.9,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:12:12.387Z",
+          "temperatureC": 57.9,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        },
+        {
+          "timestamp": "2026-11-13T16:12:29.981Z",
+          "temperatureC": 57.9,
+          "pressureBar": 1.15,
+          "waterLevelPct": 74.5,
+          "fuelConsumptionLph": 0,
+          "efficiencyPct": 0,
+          "steamOutputKgHr": 0
+        }
+      ]
+    }
+  ],
+  "alerts": [
+    {
+      "id": "ALT-1042",
+      "boilerId": "BLR-02",
+      "boilerName": "Process Heat Unit 02",
+      "severity": "warning",
+      "parameter": "maintenance",
+      "message": "500-hour preventive burner & safety valve inspection due within 28 operating hours.",
+      "valueDisplay": "472 / 500 hrs",
+      "timestamp": "2026-11-13T15:42:12.620Z",
+      "acknowledged": false,
+      "resolved": false
+    },
+    {
+      "id": "ALT-1041",
+      "boilerId": "BLR-01",
+      "boilerName": "Main Steam Unit 01",
+      "severity": "info",
+      "parameter": "water_level",
+      "message": "Automatic feedwater replenishment cycle completed smoothly.",
+      "valueDisplay": "68.4 %",
+      "timestamp": "2026-11-13T15:20:12.621Z",
+      "acknowledged": true,
+      "resolved": true
+    }
+  ],
+  "maintenanceRecords": [
+    {
+      "id": "MNT-201",
+      "boilerId": "BLR-02",
+      "boilerName": "Process Heat Unit 02",
+      "taskTitle": "Burner Nozzle Cleaning & Flue Gas Calibration",
+      "category": "Preventive",
+      "technician": "Engr. Tariqul Islam",
+      "scheduledDate": "2026-11-16",
+      "completedDate": null,
+      "dueAtHours": 6500,
+      "status": "scheduled",
+      "notes": "Due at 6,500 operating hrs. Inspect diesel atomizer and O2 trim sensor."
+    },
+    {
+      "id": "MNT-202",
+      "boilerId": "BLR-01",
+      "boilerName": "Main Steam Unit 01",
+      "taskTitle": "Bottom Blowdown Valve & TDS Probe Check",
+      "category": "Inspection",
+      "technician": "Engr. Farhan Chowdhury",
+      "scheduledDate": "2026-12-02",
+      "completedDate": null,
+      "dueAtHours": 4534,
+      "status": "scheduled",
+      "notes": "Routine quarterly blowdown valve seat verification and conductivity test."
+    },
+    {
+      "id": "MNT-203",
+      "boilerId": "BLR-03",
+      "boilerName": "Auxiliary Standby Unit 03",
+      "taskTitle": "Safety Relief Valve Hydrostatic Verification",
+      "category": "Calibration",
+      "technician": "Engr. Nusrat Jahan",
+      "scheduledDate": "2026-10-30",
+      "completedDate": "2026-10-30",
+      "dueAtHours": 1900,
+      "status": "completed",
+      "notes": "Pop test certified at 13.2 bar. Lead seal replaced and logged."
+    },
+    {
+      "id": "MNT-204",
+      "boilerId": "BLR-01",
+      "boilerName": "Main Steam Unit 01",
+      "taskTitle": "500-Hour Full Refractory & Gasket Audit",
+      "category": "Preventive",
+      "technician": "Engr. Tariqul Islam",
+      "scheduledDate": "2026-10-18",
+      "completedDate": "2026-10-18",
+      "dueAtHours": 4034,
+      "status": "completed",
+      "notes": "All fire-tube seals intact. Thermal efficiency measured at 89.4%."
+    }
+  ]
+}
